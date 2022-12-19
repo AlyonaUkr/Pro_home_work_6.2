@@ -1,6 +1,9 @@
 let year = prompt('Write year of your born, please');
 let city = prompt('Write which city do you live, please');
 let kindSport = prompt('Write your favorite kind of sport, please');
+let resultCity;
+let resultYear;
+let resultSport;
 
 if (year === null) {
     resultYear = ('It is a pity, that you did not want to enter your year of born.');
